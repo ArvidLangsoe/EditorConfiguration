@@ -81,7 +81,6 @@
         </DefaultShortcuts>
         <ShortcutsScheme />
         <UserShortcuts>
-          <RemoveShortcut Command="Edit.DeleteBackwards" Scope="Text Editor">Shift+Bkspce</RemoveShortcut>
           <Shortcut Command="Edit.MoveSelectedLinesUp" Scope="Global">Alt+Up Arrow</Shortcut>
           <Shortcut Command="Edit.MoveSelectedLinesDown" Scope="Global">Alt+Down Arrow</Shortcut>
           <Shortcut Command="Edit.GoToFile" Scope="Global">Ctrl+G</Shortcut>
@@ -92,7 +91,6 @@
           <Shortcut Command="Edit.GoToDeclaration" Scope="Global">Ctrl+F12</Shortcut>
           <Shortcut Command="Edit.GoToDefinition" Scope="Global">F12</Shortcut>
           <Shortcut Command="Edit.InsertSnippet" Scope="Global">Ctrl+,</Shortcut>
-          <Shortcut Command="Edit.LineCut" Scope="Global">Shift+Bkspce</Shortcut>
           <Shortcut Command="EditorContextMenus.CodeWindow.QuickActionsForPosition" Scope="Global">Ctrl+.</Shortcut>
           <Shortcut Command="Edit.NavigateTo" Scope="Global">Ctrl+T</Shortcut>
         </UserShortcuts>
