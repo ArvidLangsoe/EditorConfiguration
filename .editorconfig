@@ -56,9 +56,6 @@ dotnet_style_null_propagation = true
 dotnet_style_operator_placement_when_wrapping = beginning_of_line
 dotnet_style_prefer_is_null_check_over_reference_equality_method = true:warning
 dotnet_style_prefer_simplified_interpolation = true:warning
-csharp_style_inlined_variable_declaration = true:warning
-csharp_style_prefer_null_check_over_type_check = true:warning
-csharp_style_throw_expression = true:warning
 
 # Field preferences
 dotnet_style_readonly_field = true:warning
@@ -92,6 +89,11 @@ csharp_prefer_braces = when_multiline:suggestion
 csharp_prefer_simple_using_statement = true:suggestion
 csharp_style_namespace_declarations = file_scoped:warning
 
+# Expression-level preferences
+csharp_style_inlined_variable_declaration = true:warning
+csharp_style_prefer_null_check_over_type_check = true:warning
+csharp_style_throw_expression = true:warning
+
 # 'using' directive preferences
 csharp_using_directive_placement = outside_namespace:error
 
@@ -108,7 +110,7 @@ csharp_new_line_before_else = true:warning
 csharp_new_line_before_finally = true:warning
 csharp_new_line_before_members_in_anonymous_types = true:warning
 csharp_new_line_before_members_in_object_initializers = true:warning
-csharp_new_line_before_open_brace = all:warning
+csharp_new_line_before_open_brace = all
 csharp_new_line_between_query_expression_clauses = true:warning
 
 # Indentation preferences
